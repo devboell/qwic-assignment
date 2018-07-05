@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 
-const App = ({ test }) => <h1>{test}</h1>
+class App extends Component {
+
+  render() {
+
+    return <h1>{this.props.test}</h1>
+  }
+
+}
 
 const mapStateToProps = state => ({
   test: state.test
