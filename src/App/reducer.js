@@ -9,11 +9,12 @@ import {
   RECEIVE_CHARACTERS,
   SELECT_CHARACTER_TYPE,
 } from './actions'
+import { characterTypes } from './constants'
 
 
 const initialState = {
   isFetching: false,
-  characterType: 'anime',
+  characterType: characterTypes.ANIME,
   characters: {
     anime: [],
     manga: [],
