@@ -7,6 +7,7 @@ import {
 import {
   REQUEST_CHARACTERS,
   RECEIVE_CHARACTERS,
+  SELECT_CHARACTER_TYPE,
 } from './actions'
 
 
@@ -32,6 +33,9 @@ export default (state = initialState, action) => {
         set(lensPath(['characters', action.characterType]), action.characters),
         set(lensProp('isFetching'), false),
       )(state)
+
+    case SELECT_CHARACTER_TYPE:
+      return set(lensProp('characterType'), action.characterType, state)
 
     default:
       return state
