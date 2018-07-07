@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import Table from '../Table'
-import { characterKeyLabels, characterTypes } from './constants'
+import Controls from '../Controls'
+import { characterKeyLabels } from './constants'
 import { fetchCharacters } from './thunks'
 import { selectCharacterType } from './actions'
 import { getCharacters } from './selectors'
@@ -20,18 +21,7 @@ class App extends Component {
     const { characters, onSelectCharacterType } = this.props
     return (
       <div>
-        <button
-          type="button"
-          onClick={() => onSelectCharacterType(characterTypes.ANIME)}
-        >
-          Anime
-        </button>
-        <button
-          type="button"
-          onClick={() => onSelectCharacterType(characterTypes.MANGA)}
-        >
-          Manga
-        </button>
+        <Controls {...{ onSelectCharacterType }} />
         <Table
           data={characters}
           keyLabels={characterKeyLabels}
