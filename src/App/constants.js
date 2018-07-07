@@ -1,5 +1,9 @@
 
-/* eslint-disable import/prefer-default-export */
+export const characterTypes = {
+  ANIME: 'anime',
+  MANGA: 'manga',
+}
+
 export const characterKeyLabels = [
   {
     key: 'id',
