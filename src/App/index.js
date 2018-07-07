@@ -18,10 +18,10 @@ class App extends Component {
   }
 
   render() {
-    const { characters, onSelectCharacterType } = this.props
+    const { characters, onSelectCharacterType, characterType } = this.props
     return (
       <div>
-        <Controls {...{ onSelectCharacterType }} />
+        <Controls {...{ onSelectCharacterType, characterType }} />
         <Table
           data={characters}
           keyLabels={characterKeyLabels}
