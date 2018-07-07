@@ -7,6 +7,8 @@ import { Provider } from 'react-redux'
 
 import App from './App'
 import reducer from './App/reducer'
+import { fetchCharacters } from './App/thunks'
+import { characterTypes } from './App/constants'
 
 /* eslint-disable no-underscore-dangle */
 const composeEnhancers = process.env.NODE_ENV !== 'production'
@@ -19,6 +21,7 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk)),
 )
 
+store.dispatch(fetchCharacters(characterTypes.ANIME))
 
 ReactDOM.render(
   <Provider store={store}>
