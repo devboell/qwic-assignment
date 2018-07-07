@@ -6,26 +6,36 @@ import Controls from '../Controls'
 import { characterKeyLabels } from './constants'
 import { fetchCharacters } from './thunks'
 import { selectCharacterType } from './actions'
-import { getCharacters } from './selectors'
+import { getCharacters, getShouldFetch } from './selectors'
 
 class App extends Component {
   componentDidUpdate() {
     const {
+      shouldFetch,
       onFetchCharacters,
       characterType,
     } = this.props
-    onFetchCharacters(characterType)
+
+    if (shouldFetch) onFetchCharacters(characterType)
   }
 
   render() {
-    const { characters, onSelectCharacterType, characterType } = this.props
+    const {
+      characters,
+      characterType,
+      isFetching,
+      onSelectCharacterType,
+    } = this.props
     return (
       <div>
         <Controls {...{ onSelectCharacterType, characterType }} />
-        <Table
-          data={characters}
-          keyLabels={characterKeyLabels}
-        />
+        {isFetching
+          ? <h4>Fetching data</h4>
+          : <Table
+            data={characters}
+            keyLabels={characterKeyLabels}
+          />
+        }
       </div>
     )
   }
@@ -34,6 +44,8 @@ class App extends Component {
 App.propTypes = {
   characters: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   characterType: PropTypes.string.isRequired,
+  isFetching: PropTypes.bool.isRequired,
+  shouldFetch: PropTypes.bool.isRequired,
   onFetchCharacters: PropTypes.func.isRequired,
   onSelectCharacterType: PropTypes.func.isRequired,
 }
@@ -41,6 +53,8 @@ App.propTypes = {
 const mapStateToProps = state => ({
   characters: getCharacters(state),
   characterType: state.characterType,
+  isFetching: state.isFetching,
+  shouldFetch: getShouldFetch(state),
 })
 
 const mapDispatchToProps = dispatch => ({
