@@ -27,6 +27,7 @@
     "react/jsx-uses-vars": 2,
     "react/react-in-jsx-scope": 2,
     "react/jsx-filename-extension": 0,
-    "react/jsx-wrap-multilines": 0
+    "react/jsx-wrap-multilines": 0,
+    "react/jsx-one-expression-per-line": 0
   }
 }
