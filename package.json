@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel"
+    "start": "parcel",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "cross-fetch": "^2.2.2",
@@ -17,6 +19,7 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "eslint": "^5.0.1",
     "eslint-config-airbnb": "^17.0.0",
