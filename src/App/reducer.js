@@ -1,9 +1,26 @@
+import {
+  REQUEST_CHARACTERS,
+  RECEIVE_CHARACTERS,
+} from './actions'
+
+
 const initialState = {
-  test: 'test state',
+  isFetching: false,
+  characters: [],
 }
 
 export default (state = initialState, action) => {
-  switch(action.type) {
+  switch (action.type) {
+    case REQUEST_CHARACTERS:
+      return {
+        ...state,
+        isFetching: true,
+      }
+    case RECEIVE_CHARACTERS:
+      return {
+        characters: action.characters,
+        isFetching: false,
+      }
     default:
       return state
   }
