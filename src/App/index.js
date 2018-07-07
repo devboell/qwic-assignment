@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-
+import Table from '../Table'
+import { characterKeyLabels } from './constants'
 import { fetchCharacters } from './thunks'
+
 
 class App extends Component {
   componentDidMount() {
@@ -12,10 +14,12 @@ class App extends Component {
 
   render() {
     const { characters } = this.props
-    return characters.map(chr => (
-      <h1 key={chr.id}>
-        {chr.id}
-      </h1>))
+    return (
+      <Table
+        data={characters}
+        keyLabels={characterKeyLabels}
+      />
+    )
   }
 }
 
