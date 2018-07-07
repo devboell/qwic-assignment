@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import Table from '../Table'
 import { characterKeyLabels } from './constants'
 import { fetchCharacters } from './thunks'
-
+import { getCharacters } from './selectors'
 
 class App extends Component {
   componentDidMount() {
@@ -33,7 +33,7 @@ App.propTypes = {
 }
 
 const mapStateToProps = state => ({
-  characters: state.characters.anime,
+  characters: getCharacters(state),
   characterType: state.characterType,
 })
 
