@@ -1,0 +1,790 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/1"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "main"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/1/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/1/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/1/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/1/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "10256"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/1/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/1/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "2",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/2"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "main"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/2/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/2/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/2/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/2/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "3554"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/2/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/2/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "3",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/3"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "supporting"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/3/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/3/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/3/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/3/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "3176"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/3/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/3/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "4",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/4"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "supporting"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/4/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/4/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/4/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/4/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "22202"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/4/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/4/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "5",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/5"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "supporting"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/5/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/5/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/5/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/5/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "7323"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/5/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/5/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "6",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/6"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "supporting"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/6/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/6/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/6/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/6/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "22203"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/6/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/6/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "7",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/7"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "supporting"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/7/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/7/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/7/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/7/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "1438"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/7/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/7/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "8",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/8"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "supporting"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/8/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/8/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/8/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/8/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "18521"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/8/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/8/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "9",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/9"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "supporting"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/9/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/9/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/9/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/9/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "4331"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/9/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/9/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "10",
+      "type": "animeCharacters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/anime-characters/10"
+      },
+      "attributes": {
+        "createdAt": null,
+        "updatedAt": null,
+        "role": "supporting"
+      },
+      "relationships": {
+        "anime": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/10/relationships/anime",
+            "related": "https://kitsu.io/api/edge/anime-characters/10/anime"
+          }
+        },
+        "character": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/10/relationships/character",
+            "related": "https://kitsu.io/api/edge/anime-characters/10/character"
+          },
+          "data": {
+            "type": "characters",
+            "id": "10251"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/anime-characters/10/relationships/castings",
+            "related": "https://kitsu.io/api/edge/anime-characters/10/castings"
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "10256",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/10256"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:53:11.256Z",
+        "updatedAt": "2018-02-21T19:29:59.120Z",
+        "slug": "mokona-modoki-2653d87d-f9e0-4cf2-86bb-177196968d31",
+        "names": {
+          "en": "Mokona Modoki"
+        },
+        "canonicalName": "Mokona Modoki",
+        "otherNames": [
+          "Larg",
+          "Black Manjuu"
+        ],
+        "name": "Mokona Modoki",
+        "malId": 6887,
+        "description": "Second copy of dimensional god Mokona made by Clow Reed and Yuuko. <br/><br/>Black Mokona or \"Larg\" isn’t quite as enthusiastic and energetic as White Mokona, but nevertheless a teaser, which results in a reaction from Watanuki similar to Kurogane's. As Soel was made especially for Sakura, Larg was made for Watanuki.<br/><br/>Little is known about Larg, except that it is able to see ghosts, something the White Mokona, Soel, cannot do, and that its main purpose is to stay in contact with Soel, so that Yuuko can know where the group is and assist them if necessary. Also, Black Mokona is used for teleporting things to the White Mokona and vice-versa. It is done by swallowing by one of them and spitting them out by other. Yuuko has also remarked that of the two Mokona, the red earring on the white one possesses the ability to enhance magical power while the blue earring on black one has the ability to seal magical power.<br/><br/>Like Yuuko, Black Mokona loves to drink sake. The name Larg comes from the rune Laguz meaning water. Larg is officially \"male\".<br/><br/>In Horitsuba Gakuen, he is a twin of girl Mokona.",
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/10256/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/10256/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/10256/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/10256/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/10256/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "3554",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/3554"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:50:42.760Z",
+        "updatedAt": "2018-02-21T19:16:05.633Z",
+        "slug": "mokona-modoki",
+        "names": {
+          "en": "Mokona Modoki"
+        },
+        "canonicalName": "Mokona Modoki",
+        "otherNames": [
+          "Soel",
+          "Shiro Manjyuu",
+          "White meat pork bun"
+        ],
+        "name": "Mokona Modoki",
+        "malId": 2074,
+        "description": "A replica of a dimensional god Mokona made by Clow Reed and Yuuko.<br/><br/>Soel was created specifically for Sakura, as a counter-measure for certain events foretold to happen in her journey by Clow Reed. It is \"the thing\" given to tsubasa crew as a means to travel between dimensions.<br/><br/>Soel, is more energetic and cheerful than its counterpart, Black Mokona, Larg. Soel likes to tease the tsubasa team members, especially Kurogane.<br/><br/>Soel's main functions include dimensional travel, universal translator and communicating with Black Mokona. It is later revealed that these functions are part of his \"108 Secret Skills\".<br/><br/>Soel bears an earring on her right ear, while Larg has one on his left ear.<br/><br/><span class=\"spoiler\">The Earring is later revealed to contain one-time ability to \"repel\" magical curses. However the ability itself was not explained.</span><br/><br/>In Horitsuba Gakuen, she is a twin with Mokona.<br/><br/>(This is not the same Mokona which appears in CLAMP's other work, Rayearth.)",
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/3554/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/3554/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/3554/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/3554/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/3554/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "3176",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/3176"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:50:34.744Z",
+        "updatedAt": "2017-01-22T11:51:45.961Z",
+        "slug": "sorata-arisugawa",
+        "names": {
+          "en": "Sorata Arisugawa"
+        },
+        "canonicalName": "Sorata Arisugawa",
+        "otherNames": [],
+        "name": "Sorata Arisugawa",
+        "malId": 435,
+        "description": "A dragon of heaven, Sorata is an upbeat, irreverent teenager possessing considerable occult abilities, raised by the Shingon Buddhist monks of KÅ�yasan after being taken away from his mother at a young age. A gourmand, he was frequently in trouble at the shrine for stealing food between meals (insisting that he couldn't wait until dinner), and is also a competent cook. It was prophesied that he would protect Kamui with his life, but that he would die for a woman; the first time he meets Arashi, he decides she will be the one. An incessantly friendly young man, he wears down the resistance of both Kamui and Arashi and worms his way into their affections, despite their initial coldness and his own unrefined Kansai dialect.<br/><br/>In addition to generating powerful electrical discharges, he is also capable of calling upon a gohÅ�dÅ�ji, a magical being similar to a shikigami manifesting as a massive, hideous ghostly creature. It is psychically linked to Sorata, allowing him to spy on others and act at a distance from himself, but he suffers any damage inflicted upon it.<br/><br/>In Tsubasa Reservoir Chronicle<br/><span class=\"spoiler\"><br/>In the Republic of Hanshin, he&amp;#039;s a cheerful history teacher married to Arashi and is host to Syaoran&amp;#039;s group when they first arrive. In the apocalyptic world Tokyo, he&amp;#039;s one of the seven fighters of the Tower faction.<br/></span><br/>",
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/3176/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/3176/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/3176/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/3176/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/3176/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "22202",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/22202"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:57:31.492Z",
+        "updatedAt": "2018-02-21T19:23:04.392Z",
+        "slug": "hinata-asahi",
+        "names": {
+          "en": "Hinata Asahi"
+        },
+        "canonicalName": "Hinata Asahi",
+        "otherNames": [
+          "Hina"
+        ],
+        "name": "Hinata Asahi",
+        "malId": 22655,
+        "description": "Although her full name is Hinata, she likes people to call her Hina. Sixteen-year-old Hina gets excellent grades, but is still very naïve and sees the world with child-like wonder and innocence. Hina chooses to live on her own, with two teddy bears named Waka and Tono and her new found friend, a cat. She wants to live on her own to accommodate her father's hectic schedule.<br/><br/>Her father is the chairman of the school and he also owns many businesses. He hires Shirou Asou, a bodyguard, to protect her from another kidnapping attempt (she had been kidnapped nine times before). Because her father always pays the ransom, no matter how large, Hina has been kidnapped many times. She later develops deeper feelings towards Shirou.<br/><br/>(Source: Wikipedia)",
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/22202/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/22202/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/22202/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/22202/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/22202/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "7323",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/7323"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:52:03.725Z",
+        "updatedAt": "2018-02-21T19:28:45.548Z",
+        "slug": "ashura-f920ca30-7278-48bb-b1fc-a4873b8c3773",
+        "names": {
+          "en": "Ashura",
+          "ja_jp": "阿修羅"
+        },
+        "canonicalName": "Ashura",
+        "otherNames": [],
+        "name": "Ashura",
+        "malId": 3350,
+        "description": "The protagonist of the series and the last living member of the Ashura clan, Ashura (é˜¿ä¿®ç¾…, Ashura?) was born after Taishakuten had killed his father and seized the throne. His mother, Shashi, at the same time gave birth to Taishakuten's son Ten-Å�, and tried to kill Ashura, whom she believed must stand in her way to rule Heaven at Taishakuten's side. However, Ashura's powers protected him and enclosed him in a cocoon where he slept undisturbed for three hundred years, until Yasha-Å� awoke him.<br/> <br/>Upon being freed from his cocoon, Ashura first appears as a baby, but grows rapidly to a child of maybe eight years. At first outgoing and friendly, he soon becomes aware of his cruel destiny, as Taishakuten has almost everyone with whom he has associated killed. Feeling guilty for their deaths, he vows to become strong enough to defeat Taishakuten himself.<br/><br/><span class=\"spoiler\">However, Ashura has another side: He is, in fact, the \"true Ashura\", the merciless god of war whose wish is the total destruction of Heaven, Earth and Hell. This side was suppressed by several seals, one of which is the distribution of his true power among the Six Stars, but is freed upon their meeting. Only his love for Yasha-Å�, his adoptive father, finally triumphs over his lust for destruction.<br/> <br/>As a punishment for his father's sin, Ashura was born genderless so he cannot continue the royal line of Ashura, which Ashura-Å� so desperately wished to preserve that he tried to defy destiny. Languages which do not have a gender-neutral pronoun usually refer to him by either the male or the female pronoun; the choice of either is often a source of much contention.</span><br/>(Source: Wikipedia)",
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/7323/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/7323/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/7323/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/7323/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/7323/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "22203",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/22203"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:57:31.496Z",
+        "updatedAt": "2018-02-21T19:24:49.181Z",
+        "slug": "shirou-asou",
+        "names": {
+          "en": "Shirou Asou",
+          "ja_jp": null
+        },
+        "canonicalName": "Shirou Asou",
+        "otherNames": [],
+        "name": "Shirou Asou",
+        "malId": 22654,
+        "description": null,
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/22203/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/22203/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/22203/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/22203/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/22203/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "1438",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/1438"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:49:55.588Z",
+        "updatedAt": "2018-02-21T19:22:36.346Z",
+        "slug": "chii",
+        "names": {
+          "en": "Chii "
+        },
+        "canonicalName": "Chii ",
+        "otherNames": [
+          "Elda"
+        ],
+        "name": "Chii ",
+        "malId": 227,
+        "description": "Height: 152 cm<br/>Birthday: April 13<br/><br/>Chii is a Persocom who is found by Hideki Motosuwa in a garbage dump. At first, she is only able to say \"Chii\", thus earning her that name. Later on, she is taught various things, and is eventually able to communicate with other people. <br/><br/><span class=\"spoiler\">She is a Chobit, a legendary Persocom that is capable of thinking independently and feeling human emotions. Her real name is Elda. She was created to be a \"little sister\" to Freya, the first Chobit, after Chitose Hibiya noticed Freya becoming increasingly sad. After Freya eventually breaks down, Elda takes Freya's mind into her own in an attempt to save her. In the manga, this causes her own memories to reset. In the anime, Hibiya resets Elda's memories in order to find the One just for her.<br/><br/>Chi has a special program installed on her designed to connect to every persocom on the planet. In the manga, if Chi fails to find the One just for her, she would delete the ability for persocoms to recognize humans from one another. In the anime, if Chi does find the One just for her, the program would give all persocoms the ability to feel real emotions.</span>",
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/1438/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/1438/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/1438/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/1438/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/1438/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "18521",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/18521"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:56:12.496Z",
+        "updatedAt": "2018-02-21T19:28:03.829Z",
+        "slug": "eri-chusonji",
+        "names": {
+          "en": "Eri Chusonji",
+          "ja_jp": null
+        },
+        "canonicalName": "Eri Chusonji",
+        "otherNames": [],
+        "name": "Eri Chusonji",
+        "malId": 23904,
+        "description": "CLAMP School High School Division Sophomore<br/>Homeroom Z<br/><br/>Eri is a space alien police officer sent to Earth to protect it from invading aliens. She is disguised as a high school sophomore at the CLAMP School. <br/><br/>Eri has a quick temper and is quick to use violence, especially towards Kentaro and Takeshi. She falls in love with Sukiyabashi, not knowing that he is the enemy she has sworn to protect Earth from.",
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/18521/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/18521/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/18521/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/18521/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/18521/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "4331",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/4331"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:51:02.267Z",
+        "updatedAt": "2018-02-21T19:24:23.795Z",
+        "slug": "tomoyo-daidouji",
+        "names": {
+          "en": "Tomoyo Daidouji"
+        },
+        "canonicalName": "Tomoyo Daidouji",
+        "otherNames": [
+          "Madison Taylor"
+        ],
+        "name": "Tomoyo Daidouji",
+        "malId": 3120,
+        "description": "Birthdate: September 3<br/>Age: 10-12 (anime), 14 (manga)<br/>Height: 136–140 cm<br/>Blood type: A<br/>Favorite subject: Mandarin, music<br/>Least favorite subject: none<br/>Favorite colors: light yellow, white<br/>Favorite flowers: orchid, sakura<br/>Favorite foods: noodles, sushi<br/>Least favorite food: bell peppers<br/><br/>Tomoyo, Madison Taylor in the English dub, is the best friend of the series heroine, Sakura Kinomoto. When she discovers that Sakura has become the Cardcaptor, she becomes Sakura's primary assistant by designing \"battle costumes\" and filming all of her magical (and non-magical) endeavours. (The videotaping, however, seems to be more to Tomoyo's personal benefit and enjoyment than it is to Sakura's.) Tomoyo faithfully keeps Sakura's new identity secret and often covers for her in times of need.<br/><br/>Tomoyo is very mature for her age. One of her major character traits is her selflessness towards Sakura. Tomoyo is kind, caring, highly intelligent, beautiful, meticulous, and very melodic (she has a superb singing voice and often has solos in choir recitals). She always speaks using formal verb conjugations and expressions, giving her a unique air of refinement amongst the cast. When needed, Tomoyo can exhibit considerable cunning and resourcefulness, which was most prominently displayed in the final movie.",
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/4331/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/4331/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/4331/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/4331/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/4331/castings"
+          }
+        }
+      }
+    },
+    {
+      "id": "10251",
+      "type": "characters",
+      "links": {
+        "self": "https://kitsu.io/api/edge/characters/10251"
+      },
+      "attributes": {
+        "createdAt": "2013-02-20T18:53:11.106Z",
+        "updatedAt": "2017-01-22T09:38:57.126Z",
+        "slug": "shizuka-doumeki",
+        "names": {
+          "en": "Shizuka Doumeki"
+        },
+        "canonicalName": "Shizuka Doumeki",
+        "otherNames": [],
+        "name": "Shizuka Doumeki",
+        "malId": 567,
+        "description": "Birthday: March 3<br/><br/>Shizuka Doumeki is Kimihiro Watanuki's classmate and considered a rival by Watanuki. He is part of the school's kyÅ«dÅ� club and often participates (and tops) school competitions. Also because of his cool and calm composure he is very popular with the girls.<br/><br/>He lives in a shrine owned by his late grandfather, a priest in which during his childhood told him a lot of stories about folklore and shinto practices. However, despite his heritage, Doumeki has a nearly null ability of seeing ghosts or spirits, though he can still exorcise them. He does seem to be able to feel spiritual \"pressure\" and have a vague sense of their presence. One spirit he did see was the Lady in the Park that Watanuki often visited.<br/><br/>Doumeki has a pure or refreshing scent as noted by the Ame-Warashi. Kohane noted that Doumeki was a 'beautiful' or 'pretty' person, most likely referring to his spirit or aura. Naturally, Watanuki is bewildered (and rather agitated) by this. Doumeki cannot enter Yuuko's Store, the explanation why is later revealed on volume 8. His technique of exorcising spirits is by shooting them with an invisible arrow made of pure energy, as first revealed in volume 2.<br/><br/><span class=\"spoiler\">Originally Doumeki could not see the spirits/ghosts that Watanuki could see (like that of the oden shop owner and the Ghost Girl who haunted a scary home) but after he shared both his blood and half his eye with Watanuki he was able to eventually see and experience what Watanuki goes through.</span><br/>Doumeki's personality is a total opposite of Watanuki's. He has a cool, calm and often sarcastic demeanor. He barely speaks unless explaining folklore or asking Watanuki for impossible bento lunches (such as asking for food that is out of season or hard to find). He also has a deadpan sense of humor that is often dark and somewhat fatalistic. Much to the annoyance of Watanuki he seems to pop up everywhere, especially when Watanuki gets a chance to be with Himawari. He often replies in a one word phrase like \"Hn\" or \"Oh\". He is also very observant, and even though he does not show it he seems to be very protective of Watanuki, such as in Volume 5 where he stood for hours in the rain to make sure Watanuki was safe and in Volume 6 during the incident with the spirit in the park. Volume 9 of the manga through Doumeki's New Years dream we find out he looks like his late grandfather Haruka. His grandfather also knows more about Doumeki's past, and bears an uncanny resemblance to his grandson (though Watanuki points out that Haruka smiles much more).<br/><br/>(Source: CCS Wikia)",
+        "image": {
+          "original": "https://media.kitsu.io/characters/images/10251/original.jpg?1483096805",
+          "meta": {
+            "dimensions": {}
+          }
+        }
+      },
+      "relationships": {
+        "primaryMedia": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/10251/relationships/primary-media",
+            "related": "https://kitsu.io/api/edge/characters/10251/primary-media"
+          }
+        },
+        "castings": {
+          "links": {
+            "self": "https://kitsu.io/api/edge/characters/10251/relationships/castings",
+            "related": "https://kitsu.io/api/edge/characters/10251/castings"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 109348
+  },
+  "links": {
+    "first": "https://kitsu.io/api/edge/anime-characters?include=character&page%5Blimit%5D=10&page%5Boffset%5D=0",
+    "next": "https://kitsu.io/api/edge/anime-characters?include=character&page%5Blimit%5D=10&page%5Boffset%5D=10",
+    "last": "https://kitsu.io/api/edge/anime-characters?include=character&page%5Blimit%5D=10&page%5Boffset%5D=109338"
+  }
+}
