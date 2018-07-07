@@ -27,5 +27,5 @@ export const fetchCharacters = () => (dispatch) => {
       },
     })
     .then(res => res.json())
-    .then(json => dispatch(receiveCharacters(json.data)))
+    .then(json => dispatch(receiveCharacters(extractCharacterData(json))))
 }
