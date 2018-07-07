@@ -1,4 +1,10 @@
 import {
+  lensProp,
+  lensPath,
+  set,
+  compose,
+} from 'ramda'
+import {
   REQUEST_CHARACTERS,
   RECEIVE_CHARACTERS,
 } from './actions'
@@ -6,7 +12,11 @@ import {
 
 const initialState = {
   isFetching: false,
-  characters: [],
+  characterType: 'anime',
+  characters: {
+    anime: [],
+    manga: [],
+  },
 }
 
 export default (state = initialState, action) => {
@@ -16,11 +26,13 @@ export default (state = initialState, action) => {
         ...state,
         isFetching: true,
       }
+
     case RECEIVE_CHARACTERS:
-      return {
-        characters: action.characters,
-        isFetching: false,
-      }
+      return compose(
+        set(lensPath(['characters', action.characterType]), action.characters),
+        set(lensProp('isFetching'), false),
+      )(state)
+
     default:
       return state
   }
