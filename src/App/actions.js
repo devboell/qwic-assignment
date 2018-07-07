@@ -6,7 +6,8 @@ export const requestCharacters = () => ({
   type: REQUEST_CHARACTERS,
 })
 
-export const receiveCharacters = characters => ({
+export const receiveCharacters = (characters, characterType) => ({
   type: RECEIVE_CHARACTERS,
   characters,
+  characterType,
 })
