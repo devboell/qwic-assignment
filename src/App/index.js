@@ -8,8 +8,11 @@ import { fetchCharacters } from './thunks'
 
 class App extends Component {
   componentDidMount() {
-    const { onFetchCharacters } = this.props
-    onFetchCharacters()
+    const {
+      onFetchCharacters,
+      characterType,
+    } = this.props
+    onFetchCharacters(characterType)
   }
 
   render() {
@@ -25,15 +28,17 @@ class App extends Component {
 
 App.propTypes = {
   characters: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  characterType: PropTypes.string.isRequired,
   onFetchCharacters: PropTypes.func.isRequired,
 }
 
 const mapStateToProps = state => ({
-  characters: state.characters,
+  characters: state.characters.anime,
+  characterType: state.characterType,
 })
 
 const mapDispatchToProps = dispatch => ({
-  onFetchCharacters: () => dispatch(fetchCharacters()),
+  onFetchCharacters: type => dispatch(fetchCharacters(type)),
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(App)

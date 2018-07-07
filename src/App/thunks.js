@@ -16,16 +16,20 @@ export const extractCharacterData = (json) => {
   return result
 }
 
-export const fetchCharacters = () => (dispatch) => {
+const fetchUrl = type => (
+  `https://kitsu.io/api/edge/${type}-characters?include=character`)
+
+const fetchOptions = {
+  method: 'GET',
+  headers: {
+    Accept: 'application/vnd.api+json',
+    'Content-Type': 'application/vnd.api+json',
+  },
+}
+
+export const fetchCharacters = type => (dispatch) => {
   dispatch(requestCharacters())
-  fetch('https://kitsu.io/api/edge/anime-characters?include=character',
-    {
-      method: 'GET',
-      headers: {
-        Accept: 'application/vnd.api+json',
-        'Content-Type': 'application/vnd.api+json',
-      },
-    })
+  fetch(fetchUrl(type), fetchOptions)
     .then(res => res.json())
-    .then(json => dispatch(receiveCharacters(extractCharacterData(json))))
+    .then(json => dispatch(receiveCharacters(extractCharacterData(json), type)))
 }
