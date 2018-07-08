@@ -7,23 +7,23 @@ const tableCell = (val, formatter) => (
     : val
 )
 
-const Table = ({ data, keyLabels }) => (
+const Table = ({ data, columnInfo }) => (
   <table>
     <thead>
       <tr>
-        {keyLabels.map(keyLabel => (
-          <th key={keyLabel.key}>
-            {keyLabel.label}
+        {columnInfo.map(info => (
+          <th key={info.key}>
+            {info.label}
           </th>
         ))}
       </tr>
     </thead>
     <tbody>
-      {data.map(chr => (
-        <tr key={chr.id}>
-          {keyLabels.map(keyLabel => (
-            <td key={keyLabel.key}>
-              {tableCell(chr[keyLabel.key], keyLabel.formatter)}
+      {data.map(item => (
+        <tr key={item.id}>
+          {columnInfo.map(info => (
+            <td key={info.key}>
+              {tableCell(item[info.key], info.formatter)}
             </td>
           ))}
         </tr>))
@@ -34,7 +34,7 @@ const Table = ({ data, keyLabels }) => (
 
 Table.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
-  keyLabels: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  columnInfo: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
 }
 
 export default Table

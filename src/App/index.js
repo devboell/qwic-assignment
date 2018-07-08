@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import Table from '../Table'
 import Controls from '../Controls'
 import Search from '../Search'
-import { characterKeyLabels } from './constants'
+import { characterInfo } from './constants'
 import { fetchCharacters } from './thunks'
 import { selectCharacterType, updateSearch } from './actions'
 import { getCharacters, getShouldFetch } from './selectors'
@@ -37,7 +37,7 @@ class App extends Component {
           ? <h4>Fetching data</h4>
           : <Table
             data={characters}
-            keyLabels={characterKeyLabels}
+            columnInfo={characterInfo}
           />
         }
       </div>

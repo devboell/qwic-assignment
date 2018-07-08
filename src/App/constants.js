@@ -9,7 +9,7 @@ const dateFormatter = (str) => {
   return date.toDateString()
 }
 
-export const characterKeyLabels = [
+export const characterInfo = [
   {
     key: 'id',
     label: 'ID',
