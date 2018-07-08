@@ -1,6 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+const tableCell = (val, formatter) => (
+  formatter
+    ? formatter(val)
+    : val
+)
+
 const Table = ({ data, keyLabels }) => (
   <table>
     <thead>
@@ -17,7 +23,7 @@ const Table = ({ data, keyLabels }) => (
         <tr key={chr.id}>
           {keyLabels.map(keyLabel => (
             <td key={keyLabel.key}>
-              {chr[keyLabel.key]}
+              {tableCell(chr[keyLabel.key], keyLabel.formatter)}
             </td>
           ))}
         </tr>))
