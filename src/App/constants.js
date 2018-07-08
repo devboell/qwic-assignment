@@ -1,13 +1,10 @@
+import { dateFormatter, characterTypeFormatter } from '../util/formatters'
 
 export const characterTypes = {
   ANIME: 'anime',
   MANGA: 'manga',
 }
 
-const dateFormatter = (str) => {
-  const date = new Date(str)
-  return date.toDateString()
-}
 
 export const characterInfo = [
   {
@@ -21,6 +18,7 @@ export const characterInfo = [
   {
     key: 'type',
     label: 'Type',
+    formatter: characterTypeFormatter,
   },
   {
     key: 'createdAt',
