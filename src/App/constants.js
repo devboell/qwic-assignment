@@ -4,6 +4,11 @@ export const characterTypes = {
   MANGA: 'manga',
 }
 
+const dateFormatter = (str) => {
+  const date = new Date(str)
+  return date.toDateString()
+}
+
 export const characterKeyLabels = [
   {
     key: 'id',
@@ -20,10 +25,12 @@ export const characterKeyLabels = [
   {
     key: 'createdAt',
     label: 'Created At',
+    formatter: dateFormatter,
   },
   {
     key: 'updatedAt',
     label: 'Updated At',
+    formatter: dateFormatter,
   },
   {
     key: 'role',
