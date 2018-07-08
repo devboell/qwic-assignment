@@ -26,10 +26,7 @@ const initialState = {
 export default (state = initialState, action) => {
   switch (action.type) {
     case REQUEST_CHARACTERS:
-      return {
-        ...state,
-        isFetching: true,
-      }
+      return set(lensProp('isFetching'), true, state)
 
     case RECEIVE_CHARACTERS:
       return compose(
