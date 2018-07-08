@@ -1,14 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import Wrapper from './Wrapper'
+
 const Search = ({ searchText, onUpdateSearch }) => (
-  <div>
+  <Wrapper>
     <input
       type="text"
       value={searchText}
       onChange={evt => onUpdateSearch(evt.target.value)}
     />
-  </div>
+    <p>Search Name</p>
+  </Wrapper>
 )
 
 Search.propTypes = {

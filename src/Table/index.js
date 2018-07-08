@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import StyledTable from './StyledTable'
+
 const tableCell = (val, formatter) => (
   formatter
     ? formatter(val)
@@ -8,7 +10,7 @@ const tableCell = (val, formatter) => (
 )
 
 const Table = ({ data, columnInfo }) => (
-  <table>
+  <StyledTable>
     <thead>
       <tr>
         {columnInfo.map(info => (
@@ -29,7 +31,7 @@ const Table = ({ data, columnInfo }) => (
         </tr>))
       }
     </tbody>
-  </table>
+  </StyledTable>
 )
 
 Table.propTypes = {
