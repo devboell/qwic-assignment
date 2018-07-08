@@ -34,9 +34,15 @@ const Table = ({ data, columnInfo }) => (
   </StyledTable>
 )
 
+const columnInfoShape = PropTypes.shape({
+  key: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  formatter: PropTypes.func,
+})
+
 Table.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
-  columnInfo: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  columnInfo: PropTypes.arrayOf(columnInfoShape).isRequired,
 }
 
 export default Table
