@@ -13,6 +13,11 @@ const filterByName = text => (chr) => {
   return chr.name.search(regex) >= 0
 }
 
+const sortAndFilterCharacters = (chrs, text) => compose(
+  sortByNameCaseInsensitive,
+  filter(filterByName(text)),
+)(chrs)
+
 const characters = state => state.characters[state.characterType]
 const searchText = state => state.searchText
 
@@ -20,10 +25,7 @@ const searchText = state => state.searchText
 export const getCharacters = createSelector(
   characters,
   searchText,
-  (chrs, text) => compose(
-    sortByNameCaseInsensitive,
-    filter(filterByName(text)),
-  )(chrs),
+  sortAndFilterCharacters,
 )
 
 export const getShouldFetch = createSelector(
