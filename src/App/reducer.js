@@ -8,6 +8,7 @@ import {
   REQUEST_CHARACTERS,
   RECEIVE_CHARACTERS,
   SELECT_CHARACTER_TYPE,
+  UPDATE_SEARCH,
 } from './actions'
 import { characterTypes } from './constants'
 
@@ -19,6 +20,7 @@ const initialState = {
     anime: [],
     manga: [],
   },
+  searchText: '',
 }
 
 export default (state = initialState, action) => {
@@ -36,7 +38,13 @@ export default (state = initialState, action) => {
       )(state)
 
     case SELECT_CHARACTER_TYPE:
-      return set(lensProp('characterType'), action.characterType, state)
+      return compose(
+        set(lensProp('characterType'), action.characterType),
+        set(lensProp('searchText'), ''),
+      )(state)
+
+    case UPDATE_SEARCH:
+      return set(lensProp('searchText'), action.text, state)
 
     default:
       return state
